@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="256" height="256" src="https://github.com/aline-borges/bin2dec-react/blob/master/public/img/logo.png?raw=true">
+  <img width="200" height="200" src="https://github.com/aline-borges/bin2dec-react/blob/master/src/img/logo.png?raw=true">
 </p>
 
 # Bin2Dec
@@ -32,6 +32,18 @@ constraints:
 ## Bonus features
 
 -   [ ] User can enter a variable number of binary digits
+
+## Technologies
+
+ <p align="left">
+  	<img width="50" height="50" src="https://freeiconshop.com/wp-content/uploads/edd/html-flat.png">
+	<img width="50" height="50" src="https://freeiconshop.com/wp-content/uploads/edd/css-flat.png">
+	<img width="50" height="50" src="https://freeiconshop.com/wp-content/uploads/edd/js-flat-128x128.png">
+</p>
+
+## Authors
+
+[Aline Borges](https://github.com/AlineBorges)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -102,15 +114,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-## Technologies
-
- <p align="left">
-  	<img width="50" height="50" src="https://freeiconshop.com/wp-content/uploads/edd/html-flat.png">
-	<img width="50" height="50" src="https://freeiconshop.com/wp-content/uploads/edd/css-flat.png">
-	<img width="50" height="50" src="https://freeiconshop.com/wp-content/uploads/edd/js-flat-128x128.png">
-</p>
-
-## Authors
-
-[Aline Borges](https://github.com/AlineBorges)
