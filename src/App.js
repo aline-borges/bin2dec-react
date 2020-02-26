@@ -1,24 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Logo from './img/logo.png';
+import Button from './components/Button';
+import Input from './components/Input';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [binary, setBinary] = useState('');
+  const [decimal, setDecimal] = useState('');
+  const handleConvert = (event) => {
+    event.preventDefault();
+    setDecimal(parseInt(binary, 2));
+  };
+
+  const handleBinaryChange = (event) => {
+    setBinary(event.target.value);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img className="logo" src={Logo}></img>
+        <h1>Bin2Dec</h1>
+        <p>Binary to Decimal Converter</p>
       </header>
+
+      <main className="main-container">
+        <form>
+          <Input label="Binary" type="number" placeholder="Ex: 1010" onChange={handleBinaryChange} value={binary} />
+          <Input label="Decimal" type="number" value={decimal} readonly />
+          <Button text="Convert" onClick={handleConvert} />
+        </form>
+      </main>
     </div>
   );
 }
